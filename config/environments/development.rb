@@ -38,4 +38,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  # Required for Devise gem.  Remember to change 'localhost:3000' to actual application host
+  config.action_mailer.default_url_options = { host: 'rl-etsydemo-2015.herokuapp.com' }
+
 end
