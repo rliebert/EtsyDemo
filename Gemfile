@@ -13,7 +13,7 @@ gem 'bootstrap-sass', '~> 3.3.4'
 gem 'paperclip', :git => 'git://github.com/thoughtbot/paperclip.git'
 gem 'paperclip-dropbox', '>= 1.1.7'
 gem 'figaro'
-gem 'devise'
+gem 'devise', '>= 4.6.0'
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 group :production do
